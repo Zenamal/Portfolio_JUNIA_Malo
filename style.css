@@ -35,6 +35,8 @@ section{
 #block{
     display: flex;
     background: linear-gradient(90deg,rgba(91, 218, 205, 1) 9%, rgba(83, 106, 237, 1) 100%);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .titre{
@@ -118,4 +120,9 @@ section{
 
 html{
     scroll-behavior: smooth;
+}
+
+#skills{
+    margin-left: 5%;
+    color: #1f2837;
 }

@@ -6,4 +6,18 @@
         margin-top: 3%;
         margin-bottom: 3%;
     }
+    #block{
+        display: block;
+    }
+    #projets{
+        margin-left: 10%;
+    }
+
+    section{
+        width: 80%;
+    }
+
+    #skills{
+        color: white;
+    }
 }
