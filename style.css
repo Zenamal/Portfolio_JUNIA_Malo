@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: #1f2837;
+    color:white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+#tete{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 300%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#pied{
+    margin-right: 1%;
+}
+
+section{
+    width: 50%;
+}
+
+#contact{
+    color: black;
+    background-color:white ;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#block{
+    display: flex;
+    background: linear-gradient(90deg,rgba(91, 218, 205, 1) 9%, rgba(83, 106, 237, 1) 100%);
+}
+
+.titre{
+    margin-left: 1%;
+}
+
+#title_skills{
+    justify-content: left;
+}
+
+.icone{
+    height: 50px;
+    transition-property: opacity;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+
+
+}
+
+.icone:hover{
+    opacity: 50%;
+}
+
+#titre_projets{
+    justify-content: left;
+}
+
+#para_proj{
+    margin-left: 3%;
+}
+
+.liens{
+    margin: 3%;
+    font-size: 150%;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: aqua;
+}
+
+#contacter{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+}
+
+#bouton-contact{
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+#bouton-contact:hover{
+    background-color: #1f2837;
+    color: white;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+}
+
+#parcours{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
